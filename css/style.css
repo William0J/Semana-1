@@ -1,0 +1,70 @@
+/****************				Import			****************/
+
+@import url('https://fonts.googleapis.com/css?family=Special+Elite|Teko:400,700|Vesper+Libre&subset=devanagari,latin-ext');
+
+/****************				Page			****************/
+
+ body {
+ 	background-image: url(../img/bg.gif);
+ 	background-repeat: no-repeat;
+ 	background-size: 50	%;
+ 	background-color: #f8f8f8;
+ }
+ #wrapper {
+ 	margin: 0 auto;
+ 	max-width: 1200px;
+ }
+
+/****************				Header			****************/
+
+header {
+
+}
+header h1 {
+	font-size: 6em;
+	font-family: 'Special Elite', cursive;
+}
+header h1:hover {
+	color: gray;
+	font-size: 6.1em;
+}
+img {
+	width: 100%;
+}
+
+/****************				Section			****************/
+
+article {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+h2 {
+	font-size: 2em;
+	font-family: 'Teko', sans-serif;
+	font-weight: bold;
+}
+button {
+	font-family: 'Teko', sans-serif;
+	margin: 5px;
+	background-color: black;
+}
+.btn {
+	font-size: 1.5em;
+	background-color: black;
+	border: black;
+}
+.btn:hover {
+	background-color: grey;
+	border: grey;
+	color: black
+}
+.modal-content p {
+	margin: 15px;
+}
+
+p {
+	text-align: left;
+	margin: 15px;
+	font-family: 'Vesper Libre', serif;
+	font-size: 0.9em;
+}
